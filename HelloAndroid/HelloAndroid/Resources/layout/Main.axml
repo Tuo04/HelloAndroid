@@ -1,28 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:p1="http://schemas.android.com/apk/res/android"
-    p1:orientation="vertical"
-    p1:layout_width="match_parent"
-    p1:layout_height="match_parent"
-    p1:id="@+id/linearLayout1">
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+   android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
     <TextView
-        p1:layout_width="match_parent"
-        p1:layout_height="64.6dp"
-        p1:id="@+id/textView1"
-        p1:textSize="22sp"
-        p1:textColor="@android:color/holo_red_light" />
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/showHello" />
     <Button
-        p1:text="确定"
-        p1:layout_width="match_parent"
-        p1:layout_height="71.5dp"
-        p1:id="@+id/button1"
-        p1:background="@android:color/holo_red_light"
-        p1:textSize="18sp" />
-    <TextView
-        p1:text="The First Android Application Designed By LWJ"
-        p1:layout_width="match_parent"
-        p1:layout_height="85.0dp"
-        p1:id="@+id/textView2"
-        p1:textColor="@android:color/holo_blue_light"
-        p1:textSize="22sp"
-        p1:layout_marginTop="@android:dimen/app_icon_size" />
+        android:text="Click Me"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/sayHello" />
 </LinearLayout>

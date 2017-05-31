@@ -10,22 +10,25 @@ namespace HelloAndroid
     [Activity(Label = "HelloAndroid", MainLauncher = true, Icon = "@drawable/icon")]
     public class MainActivity : Activity
     {
+        int count = 0;
         protected override void OnCreate(Bundle bundle)
         {
-            int count = 1;
             base.OnCreate(bundle);
-            // Set our view from the "main" layout resource
+            // 加载布局
             SetContentView(Resource.Layout.Main);
-
-            // Get our button from the layout resource,
-            // and attach an event to it
-            Button button = FindViewById<Button>(Resource.Id.button1);
-            TextView ts = FindViewById<TextView>(Resource.Id.textView1);
-            button.Click += delegate
+            // 获取布局中的控件
+            Button say = FindViewById<Button>(Resource.Id.sayHello);
+            TextView show = FindViewById<TextView>(Resource.Id.showHello);
+            // 绑定 Click 事件
+            say.Click += (sender, e) =>
             {
-                ts.Text = "Hello Android";
-                button.Text = string.Format("第{0}次点击", count++);
+                count++;
+                show.Text = "Hello, Android";
+                say.Text = $"You Clicked {count}";
+                // Toast 通知
+                Toast.MakeText(this, $"You Clicked {count}", ToastLength.Short).Show();
             };
+
 
             MobileCenter.Start("3c6f2c4c-21cc-4f14-9598-649112f8d1b4",
                    typeof(Analytics), typeof(Crashes));
