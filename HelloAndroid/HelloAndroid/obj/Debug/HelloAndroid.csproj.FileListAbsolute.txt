@@ -33,6 +33,7 @@ C:\test\HelloAndroid\HelloAndroid\HelloAndroid\bin\Debug\Microsoft.Azure.Mobile.
 C:\test\HelloAndroid\HelloAndroid\HelloAndroid\bin\Debug\Microsoft.Azure.Mobile.Distribute.Android.Bindings.dll
 C:\test\HelloAndroid\HelloAndroid\HelloAndroid\bin\Debug\Microsoft.Azure.Mobile.Distribute.dll
 C:\test\HelloAndroid\HelloAndroid\HelloAndroid\bin\Debug\Microsoft.Azure.Mobile.dll
+C:\test\HelloAndroid\HelloAndroid\HelloAndroid\obj\Debug\HelloAndroid.csprojResolveAssemblyReference.cache
 C:\test\HelloAndroid\HelloAndroid\HelloAndroid\obj\Debug\HelloAndroid.dll
 C:\test\HelloAndroid\HelloAndroid\HelloAndroid\obj\Debug\HelloAndroid.pdb
 C:\test\HelloAndroid\HelloAndroid\HelloAndroid\obj\Debug\android\bin\HelloAndroid.HelloAndroid.apk
