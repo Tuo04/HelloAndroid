@@ -28,10 +28,11 @@ namespace HelloAndroid
                 // Toast 通知
                 Toast.MakeText(this, $"You Clicked {count}", ToastLength.Short).Show();
                 if (count > 5)
+                {
                     throw new System.Exception("error:click>5");
+                    Crashes.GenerateTestCrash();
+                }
             };
-
-
             MobileCenter.Start("3c6f2c4c-21cc-4f14-9598-649112f8d1b4",
                    typeof(Analytics), typeof(Crashes));
             // Set our view from the "main" layout resource
