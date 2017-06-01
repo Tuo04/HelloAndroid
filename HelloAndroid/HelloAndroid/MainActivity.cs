@@ -19,6 +19,7 @@ namespace HelloAndroid
             // 获取布局中的控件
             Button say = FindViewById<Button>(Resource.Id.sayHello);
             TextView show = FindViewById<TextView>(Resource.Id.showHello);
+            Crashes.Enabled = true;
             // 绑定 Click 事件
             say.Click += (sender, e) =>
             {
