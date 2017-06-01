@@ -41,4 +41,3 @@ C:\test\HelloAndroid\HelloAndroid\HelloAndroid\obj\Debug\res\values\strings.xml
 C:\test\HelloAndroid\HelloAndroid\HelloAndroid\obj\Debug\res\drawable\icon.png
 C:\test\HelloAndroid\HelloAndroid\HelloAndroid\obj\Debug\R.cs.flag
 C:\test\HelloAndroid\HelloAndroid\HelloAndroid\obj\Debug\uploadflags.txt
-C:\test\HelloAndroid\HelloAndroid\HelloAndroid\obj\Debug\HelloAndroid.csprojResolveAssemblyReference.cache
