@@ -27,6 +27,8 @@ namespace HelloAndroid
                 say.Text = $"You Clicked {count}";
                 // Toast 通知
                 Toast.MakeText(this, $"You Clicked {count}", ToastLength.Short).Show();
+                if (count > 5)
+                    throw new System.Exception("error:click>5");
             };
 
 
