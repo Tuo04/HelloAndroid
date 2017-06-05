@@ -32,8 +32,10 @@ namespace HelloAndroid
                 {
                     Crashes.Enabled = true;
                     //throw new System.Exception("error:click>5");
-                    
-                    Crashes.GenerateTestCrash();
+                    bool isEnabled = Crashes.Enabled;
+                    System.Console.Write(isEnabled);
+
+                    //Crashes.GenerateTestCrash();
                 }
             };
             MobileCenter.Start("3c6f2c4c-21cc-4f14-9598-649112f8d1b4",
