@@ -30,7 +30,7 @@ namespace HelloAndroid
                 Toast.MakeText(this, $"You Clicked {count}", ToastLength.Short).Show();
                 if (count > 5)
                 {
-                    //Crashes.Enabled = true;
+                    Crashes.Enabled = true;
                     //throw new System.Exception("error:click>5");
                     
                     Crashes.GenerateTestCrash();
