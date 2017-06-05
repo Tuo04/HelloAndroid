@@ -32,13 +32,13 @@ namespace HelloAndroid
                 {
                     Crashes.Enabled = true;
                     //throw new System.Exception("error:click>5");
-                    bool isEnabled = Crashes.Enabled;
-                    System.Console.Write(isEnabled);
+                    //bool isEnabled = Crashes.Enabled;
+                    //System.Console.Write(isEnabled);
 
-                    //Crashes.GenerateTestCrash();
+                    Crashes.GenerateTestCrash();
                 }
             };
-            MobileCenter.Start("3c6f2c4c-21cc-4f14-9598-649112f8d1b4",
+            MobileCenter.Start("15a993b1-6275-4de7-9091-cf63abc2aa38",
                    typeof(Analytics), typeof(Crashes));
             // Set our view from the "main" layout resource
             // SetContentView (Resource.Layout.Main);
