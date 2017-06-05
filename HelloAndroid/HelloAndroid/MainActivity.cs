@@ -4,6 +4,8 @@ using Android.OS;
 using Microsoft.Azure.Mobile;
 using Microsoft.Azure.Mobile.Analytics;
 using Microsoft.Azure.Mobile.Crashes;
+using System;
+using System.Collections.Generic;
 
 namespace HelloAndroid
 {
@@ -37,6 +39,8 @@ namespace HelloAndroid
 
                     //Crashes.GenerateTestCrash();
                 }
+                Analytics.TrackEvent("Click Me", new Dictionary<string, string> {
+                    { "click", "time"+count }});
             };
             MobileCenter.Start("15a993b1-6275-4de7-9091-cf63abc2aa38",
                    typeof(Analytics), typeof(Crashes));

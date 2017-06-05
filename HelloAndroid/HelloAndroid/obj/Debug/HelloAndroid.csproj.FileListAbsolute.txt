@@ -42,5 +42,3 @@ C:\test\HelloAndroid\HelloAndroid\HelloAndroid\obj\Debug\res\drawable\icon.png
 C:\test\HelloAndroid\HelloAndroid\HelloAndroid\obj\Debug\R.cs.flag
 C:\test\HelloAndroid\HelloAndroid\HelloAndroid\obj\Debug\uploadflags.txt
 C:\test\HelloAndroid\HelloAndroid\HelloAndroid\obj\Debug\HelloAndroid.csprojResolveAssemblyReference.cache
-C:\test\HelloAndroid\HelloAndroid\HelloAndroid\bin\Debug\HelloAndroid.dll.mdb
-C:\test\HelloAndroid\HelloAndroid\HelloAndroid\obj\Debug\android\assets\HelloAndroid.dll.mdb
