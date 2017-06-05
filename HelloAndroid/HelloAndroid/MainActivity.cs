@@ -31,11 +31,11 @@ namespace HelloAndroid
                 if (count > 5)
                 {
                     Crashes.Enabled = true;
-                    //throw new System.Exception("error:click>5");
+                    throw new System.Exception("error:click>5");
                     //bool isEnabled = Crashes.Enabled;
                     //System.Console.Write(isEnabled);
 
-                    Crashes.GenerateTestCrash();
+                    //Crashes.GenerateTestCrash();
                 }
             };
             MobileCenter.Start("15a993b1-6275-4de7-9091-cf63abc2aa38",
