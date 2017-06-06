@@ -33,17 +33,19 @@ namespace HelloAndroid
                 if (count > 5)
                 {
                     Crashes.Enabled = true;
-                    //throw new System.Exception("error:click>5");
+                    throw new System.Exception("error:click>5");
                     //bool isEnabled = Crashes.Enabled;
                     //System.Console.Write(isEnabled);
 
-                    Crashes.GenerateTestCrash();
+                    //Crashes.GenerateTestCrash();
                 }
                 Analytics.TrackEvent("Click Me", new Dictionary<string, string> {
                     { "click", "time"+count }});
             };
-            MobileCenter.Start("65ff38b5-a7f1-4493-974d-616eef498bfa",
+            MobileCenter.Start("66079d21-8ad8-4bad-91b7-9e9f885281ea",
                    typeof(Analytics), typeof(Crashes));
+            //MobileCenter.Start("65ff38b5-a7f1-4493-974d-616eef498bfa",
+            //       typeof(Analytics), typeof(Crashes));
             //MobileCenter.Start("15a993b1-6275-4de7-9091-cf63abc2aa38",
             //       typeof(Analytics), typeof(Crashes));
             // Set our view from the "main" layout resource
