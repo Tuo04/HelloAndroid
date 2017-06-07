@@ -42,8 +42,8 @@ namespace HelloAndroid
                 Analytics.TrackEvent("Click Me", new Dictionary<string, string> {
                     { "click", "time"+count }});
             };
-            MobileCenter.Start("65ff38b5-a7f1-4493-974d-616eef498bfa",
-                      typeof(Analytics), typeof(Crashes));
+            MobileCenter.Start("a5232c73-a23f-4f29-8374-23f8848ec63e",
+                    typeof(Analytics), typeof(Crashes));
             //MobileCenter.Start("15a993b1-6275-4de7-9091-cf63abc2aa38",
             //       typeof(Analytics), typeof(Crashes));
             // Set our view from the "main" layout resource
