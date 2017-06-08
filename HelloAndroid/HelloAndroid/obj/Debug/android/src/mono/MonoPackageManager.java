@@ -107,6 +107,9 @@ class MonoPackageManager_Resources {
 		"Microsoft.Azure.Mobile.Distribute.Android.Bindings.dll",
 		"Microsoft.Azure.Mobile.Distribute.dll",
 		"Microsoft.Azure.Mobile.dll",
+		"Xamarin.Android.Support.v4.dll",
+		"Xamarin.GooglePlayServices.Base.dll",
+		"Xamarin.GooglePlayServices.Basement.dll",
 	};
 	public static final String[] Dependencies = new String[]{
 	};
