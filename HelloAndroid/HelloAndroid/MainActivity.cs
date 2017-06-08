@@ -34,8 +34,8 @@ namespace HelloAndroid
                 if (count > 5)
                 {
                     Crashes.Enabled = true;
-                    throw new System.Exception("error:click>5");
-                    //Crashes.GenerateTestCrash();
+                    //throw new System.Exception("error:click>5");
+                    Crashes.GenerateTestCrash();
                 }
                 Analytics.TrackEvent("Click Me", new Dictionary<string, string> {
                     { "click", "time"+count }});
