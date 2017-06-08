@@ -34,9 +34,6 @@ namespace HelloAndroid
                 {
                     Crashes.Enabled = true;
                     throw new System.Exception("error:click>5");
-                    //bool isEnabled = Crashes.Enabled;
-                    //System.Console.Write(isEnabled);
-
                     //Crashes.GenerateTestCrash();
                 }
                 Analytics.TrackEvent("Click Me", new Dictionary<string, string> {
@@ -44,8 +41,6 @@ namespace HelloAndroid
             };
             MobileCenter.Start("a5232c73-a23f-4f29-8374-23f8848ec63e",
                     typeof(Analytics), typeof(Crashes));
-            //MobileCenter.Start("15a993b1-6275-4de7-9091-cf63abc2aa38",
-            //       typeof(Analytics), typeof(Crashes));
             // Set our view from the "main" layout resource
             // SetContentView (Resource.Layout.Main);
         }
