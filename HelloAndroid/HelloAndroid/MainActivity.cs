@@ -15,6 +15,7 @@ namespace HelloAndroid
         int count = 0;
         protected override void OnCreate(Bundle bundle)
         {
+            MobileCenter.SetLogUrl("https://in-staging-south-centralus.staging.avalanch.es");
             base.OnCreate(bundle);
             // 加载布局
             SetContentView(Resource.Layout.Main);
