@@ -40,7 +40,7 @@ namespace HelloAndroid
                 Analytics.TrackEvent("Click Me", new Dictionary<string, string> {
                     { "click", "time"+count }});
             };
-            MobileCenter.Start("8ef89736-1044-4044-a3c2-00f3f4fc449a",
+            MobileCenter.Start("9e491e11-07ef-4ad3-94fd-dfc23febe46c",
                     typeof(Analytics), typeof(Crashes));
         }
     }
